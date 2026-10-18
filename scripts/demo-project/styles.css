@@ -1,0 +1,12 @@
+:root {
+  --pumpkin: #e07a2e;
+  --coffee: #4a2a1a;
+  --cream: #fff7e6;
+  --wood: #8a5a12;
+}
+
+body {
+  background: var(--cream);
+  color: var(--coffee);
+  font-family: Georgia, serif;
+}

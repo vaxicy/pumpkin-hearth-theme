@@ -1,0 +1,51 @@
+{
+  "name": "pumpkin-hearth-theme",
+  "displayName": "Pumpkin Hearth Theme",
+  "description": "Warm pumpkin, coffee, cream and wood tones in coordinated light and dark themes.",
+  "version": "1.0.0",
+  "publisher": "lilinhuang",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "dark",
+    "autumn",
+    "pumpkin",
+    "warm",
+    "coffee",
+    "cream"
+  ],
+  "icon": "assets/icon.png",
+  "license": "SEE LICENSE IN LICENSE",
+  "galleryBanner": {
+    "color": "#321D15",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaxicy/pumpkin-hearth-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pumpkin Hearth Theme Light",
+        "uiTheme": "vs",
+        "path": "./themes/pumpkin-hearth-light-color-theme.json"
+      },
+      {
+        "label": "Pumpkin Hearth Theme Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pumpkin-hearth-dark-color-theme.json"
+      }
+    ]
+  }
+}
+
+
+
+
